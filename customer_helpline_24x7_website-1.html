@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Customer Helpline 24x7 provides home appliance repair services in Delhi NCR for washing machines, refrigerators, microwaves, dishwashers and dryers across all major brands.">
+<meta name="theme-color" content="#10233f">
+<title>Customer Helpline 24x7 | Home Appliance Repair in Delhi NCR</title>
+<style>
+:root{--navy:#10233f;--blue:#1769e0;--cyan:#22c5d9;--ink:#17243a;--muted:#66758b;--bg:#f4f7fb;--white:#fff;--green:#16a765}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:var(--bg);line-height:1.6}
+a{text-decoration:none;color:inherit}.container{width:min(1120px,92%);margin:auto}
+header{background:rgba(16,35,63,.97);color:white;position:sticky;top:0;z-index:10;box-shadow:0 4px 18px #07162b33}
+.nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+.brand{display:flex;align-items:center;gap:11px;font-weight:800;font-size:19px;letter-spacing:.2px}
+.logo{width:42px;height:42px;border-radius:13px;background:linear-gradient(135deg,var(--cyan),var(--blue));display:grid;place-items:center;font-size:23px}
+nav{display:flex;align-items:center;gap:22px;font-size:14px;color:#e3ebf8}
+.nav-call{background:var(--green);padding:11px 16px;border-radius:999px;font-weight:700;color:white}
+.hero{background:radial-gradient(circle at 85% 15%,#2b83d9 0,transparent 28%),linear-gradient(125deg,#10233f,#173d69 70%,#126b91);color:white;padding:76px 0 68px;overflow:hidden}
+.hero-grid{display:grid;grid-template-columns:1.15fr .85fr;gap:42px;align-items:center}
+.eyebrow{display:inline-flex;gap:8px;align-items:center;background:#ffffff18;border:1px solid #ffffff35;padding:7px 13px;border-radius:999px;color:#d9f5ff;font-size:13px;font-weight:700}
+h1{font-size:clamp(36px,5.3vw,61px);line-height:1.08;margin:20px 0 16px;letter-spacing:-1.8px}
+.hero p{font-size:18px;color:#d7e5f7;max-width:600px;margin:0 0 27px}
+.actions{display:flex;flex-wrap:wrap;gap:12px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:14px 20px;border-radius:12px;font-weight:800;transition:.2s}.btn:hover{transform:translateY(-2px)}.btn-primary{background:var(--green);color:white;box-shadow:0 8px 20px #061b2e40}.btn-light{background:white;color:var(--navy)}
+.hero-card{background:#ffffff12;border:1px solid #ffffff30;border-radius:26px;padding:25px;backdrop-filter:blur(8px);box-shadow:0 18px 55px #06152d55}
+.appliance-art{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.appliance{min-height:116px;border-radius:18px;background:linear-gradient(145deg,#ffffff,#e5effb);color:#172b48;display:flex;flex-direction:column;justify-content:center;align-items:center;font-weight:700;gap:5px;box-shadow:inset 0 1px #fff}
+.appliance span{font-size:36px}.appliance small{font-size:12px;color:#5f7088}
+.trust{background:white;border-bottom:1px solid #e8edf4}.trust-row{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;padding:20px 0;text-align:center}.trust-item{font-weight:700;color:#30435d;font-size:14px}.trust-item b{color:var(--blue);font-size:19px;display:block}
+section{padding:70px 0}.section-head{text-align:center;max-width:700px;margin:0 auto 34px}.kicker{color:var(--blue);font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:1.5px}.section-head h2{font-size:clamp(28px,4vw,40px);line-height:1.15;margin:9px 0 12px;color:var(--navy)}.section-head p{color:var(--muted);margin:0}
+.services{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.service{background:white;border:1px solid #e8edf4;border-radius:19px;padding:24px;box-shadow:0 8px 25px #142d4d08}.service-icon{width:55px;height:55px;border-radius:16px;background:#eaf3ff;display:grid;place-items:center;font-size:29px}.service h3{margin:15px 0 6px;color:var(--navy)}.service p{margin:0;color:var(--muted);font-size:14px}
+.brands{background:#eaf1f9}.brand-list{display:flex;flex-wrap:wrap;justify-content:center;gap:11px}.brand-list span{background:white;border:1px solid #dce6f2;padding:10px 17px;border-radius:999px;font-weight:700;color:#344963}
+.why-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.why{background:white;padding:23px;border-radius:17px;border:1px solid #e8edf4}.why b{display:block;color:var(--navy);margin-bottom:5px}.why p{margin:0;color:var(--muted);font-size:14px}
+.cta{background:linear-gradient(120deg,#10233f,#17518b);color:white;border-radius:25px;padding:38px;display:flex;align-items:center;justify-content:space-between;gap:25px}.cta h2{font-size:30px;margin:0 0 6px}.cta p{margin:0;color:#d5e5f8}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:25px}.contact-card{background:white;border:1px solid #e6edf5;border-radius:20px;padding:27px}.contact-card h3{margin-top:0;color:var(--navy)}.contact-line{display:flex;gap:12px;align-items:center;margin:15px 0;color:#465a74}.contact-line strong{display:block;color:var(--ink)}
+footer{background:#0c1b30;color:#d1dced;padding:28px 0;font-size:13px}.footer-row{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+.floating{position:fixed;right:18px;bottom:18px;z-index:20;display:flex;flex-direction:column;gap:10px}.float-btn{width:56px;height:56px;border-radius:50%;display:grid;place-items:center;color:white;font-size:24px;box-shadow:0 7px 20px #10233f44}.float-call{background:var(--green)}.float-wa{background:#20bd68}
+.note{font-size:12px;color:#728198;margin-top:13px}
+@media(max-width:800px){nav{display:none}.hero{padding:54px 0}.hero-grid{grid-template-columns:1fr}.hero-card{max-width:500px}.services{grid-template-columns:repeat(2,1fr)}.why-grid{grid-template-columns:1fr}.cta{display:block}.cta .actions{margin-top:20px}.contact-grid{grid-template-columns:1fr}}
+@media(max-width:520px){.services{grid-template-columns:1fr}.trust-row{grid-template-columns:1fr}.hero p{font-size:16px}.btn{width:100%}.cta{padding:27px}.brand{font-size:16px}}
+</style>
+</head>
+<body>
+<header><div class="container nav">
+  <a class="brand" href="#"><span class="logo">⚙</span><span>Customer Helpline <span style="color:#56d8e7">24x7</span></span></a>
+  <nav><a href="#services">Services</a><a href="#brands">Brands</a><a href="#about">Why Us</a><a href="#contact">Contact</a></nav>
+  <a class="nav-call" href="tel:18002025077">☎ Call 1800 202 5077</a>
+</div></header>
+<main>
+<section class="hero"><div class="container hero-grid">
+  <div>
+    <span class="eyebrow">✦ HOME APPLIANCE REPAIR · DELHI NCR</span>
+    <h1>Expert Appliance Repair.<br><span style="color:#5ce0e8">At Your Doorstep.</span></h1>
+    <p>Repair support for washing machines, refrigerators, microwaves, dishwashers and dryers. Service for all major brands across Delhi NCR.</p>
+    <div class="actions">
+      <a class="btn btn-primary" href="tel:18002025077">☎ Call Now · 1800 202 5077</a>
+      <a class="btn btn-light" href="https://wa.me/9118002025077?text=Hello%2C%20I%20need%20appliance%20repair%20service%20in%20Delhi%20NCR." target="_blank" rel="noopener">✆ WhatsApp Booking</a>
+    </div>
+    <div class="note" style="color:#c2d5eb">Delhi · Noida · Ghaziabad · Gurugram · Faridabad</div>
+  </div>
+  <div class="hero-card"><div class="appliance-art">
+    <div class="appliance"><span>🧺</span>Washing Machine<small>Repair service</small></div>
+    <div class="appliance"><span>🧊</span>Refrigerator<small>Repair service</small></div>
+    <div class="appliance"><span>🍲</span>Microwave<small>Repair service</small></div>
+    <div class="appliance"><span>🍽️</span>Dishwasher<small>Repair service</small></div>
+    <div class="appliance" style="grid-column:1/-1;min-height:90px"><span>♨️</span>Clothes Dryer · All Brands</div>
+  </div></div>
+</div></section>
+<div class="trust"><div class="container trust-row">
+  <div class="trust-item"><b>5 Appliance Types</b>One service destination</div>
+  <div class="trust-item"><b>All Major Brands</b>Multi-brand repair support</div>
+  <div class="trust-item"><b>Delhi NCR</b>Local service coverage</div>
+</div></div>
+<section id="services"><div class="container">
+  <div class="section-head"><span class="kicker">What we repair</span><h2>Our Appliance Repair Services</h2><p>Choose your appliance and contact our helpline to discuss your repair requirement.</p></div>
+  <div class="services">
+    <article class="service"><div class="service-icon">🧺</div><h3>Washing Machine Repair</h3><p>Front-load, top-load and semi-automatic washing machine repair support.</p></article>
+    <article class="service"><div class="service-icon">🧊</div><h3>Refrigerator Repair</h3><p>Single-door, double-door and other domestic refrigerator repair support.</p></article>
+    <article class="service"><div class="service-icon">🍲</div><h3>Microwave Repair</h3><p>Microwave oven troubleshooting and repair support for common issues.</p></article>
+    <article class="service"><div class="service-icon">🍽️</div><h3>Dishwasher Repair</h3><p>Dishwasher inspection and repair support for home appliances.</p></article>
+    <article class="service"><div class="service-icon">♨️</div><h3>Clothes Dryer Repair</h3><p>Clothes dryer troubleshooting and repair support for all common types.</p></article>
+    <article class="service"><div class="service-icon">🔧</div><h3>Multi-Brand Service</h3><p>Support for leading appliance brands. Call to confirm your model and service area.</p></article>
+  </div>
+</div></section>
+<section class="brands" id="brands"><div class="container">
+  <div class="section-head"><span class="kicker">Multi-brand support</span><h2>All Major Brands</h2><p>We provide repair-service assistance for a wide range of home appliance brands.</p></div>
+  <div class="brand-list"><span>LG</span><span>Samsung</span><span>Whirlpool</span><span>IFB</span><span>Bosch</span><span>Haier</span><span>Godrej</span><span>Panasonic</span><span>Voltas</span><span>And More</span></div>
+</div></section>
+<section id="about"><div class="container">
+  <div class="section-head"><span class="kicker">Why contact us</span><h2>Repair Help Made Simple</h2><p>Tell us what appliance needs attention. Our helpline can guide you on the next steps.</p></div>
+  <div class="why-grid">
+    <div class="why"><b>01 · Easy Calling</b><p>Reach the helpline directly with one tap from your phone.</p></div>
+    <div class="why"><b>02 · Multiple Appliances</b><p>One place for washing machine, fridge, microwave, dishwasher and dryer enquiries.</p></div>
+    <div class="why"><b>03 · Delhi NCR Coverage</b><p>Enquiries welcome from Delhi, Noida, Ghaziabad, Gurugram and Faridabad.</p></div>
+  </div>
+</div></section>
+<section id="contact"><div class="container">
+  <div class="cta"><div><h2>Need Appliance Repair?</h2><p>Call Customer Helpline 24x7 for service enquiries in Delhi NCR.</p></div><div class="actions"><a class="btn btn-primary" href="tel:18002025077">☎ Call Now</a><a class="btn btn-light" href="https://wa.me/9118002025077?text=Hello%2C%20I%20need%20appliance%20repair%20service%20in%20Delhi%20NCR." target="_blank" rel="noopener">WhatsApp</a></div></div>
+  <div class="contact-grid" style="margin-top:25px">
+    <div class="contact-card"><h3>Contact Details</h3><div class="contact-line"><span>☎</span><div><small>Helpline Number</small><strong><a href="tel:18002025077">1800 202 5077</a></strong></div></div><div class="contact-line"><span>📍</span><div><small>Service Area</small><strong>Delhi NCR</strong></div></div><div class="contact-line"><span>🛠</span><div><small>Services</small><strong>Washing Machine · Fridge · Microwave · Dishwasher · Dryer</strong></div></div></div>
+    <div class="contact-card"><h3>Book a Service Enquiry</h3><p style="color:#66758b">Call us to share your appliance type, brand, model and location. Please confirm service availability and charges before booking.</p><a class="btn btn-primary" href="tel:18002025077">Call 1800 202 5077</a><p class="note">WhatsApp booking is available once a WhatsApp-enabled mobile number is configured.</p></div>
+  </div>
+</div></section>
+</main>
+<footer><div class="container footer-row"><span>© 2026 Customer Helpline 24x7. All rights reserved.</span><span>Home Appliance Repair Enquiries · Delhi NCR</span></div></footer>
+<div class="floating"><a class="float-btn float-call" href="tel:18002025077" aria-label="Call now">☎</a><a class="float-btn float-wa" href="https://wa.me/9118002025077?text=Hello%2C%20I%20need%20appliance%20repair%20service%20in%20Delhi%20NCR." target="_blank" rel="noopener" aria-label="WhatsApp">◉</a></div>
+</body></html>
